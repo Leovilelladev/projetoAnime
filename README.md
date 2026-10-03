@@ -9,13 +9,3 @@ As imagens da pasta `assets/` são as referências visuais fornecidas para esta 
 ```bash
 npm run dev
 ```
-
-## Publicar na Vercel
-
-Com a CLI da Vercel instalada e autenticada:
-
-```bash
-npx vercel --prod
-```
-
-O projeto não possui etapa de build: a Vercel serve o `index.html` diretamente.
